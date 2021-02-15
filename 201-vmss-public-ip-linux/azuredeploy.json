@@ -191,7 +191,8 @@
           "storageProfile": {
             "osDisk": {
               "caching": "ReadOnly",
-              "createOption": "FromImage"
+              "createOption": "FromImage",
+              "diskSizeGB": "[parameters('diskSize')]"
             },
             "imageReference": "[variables('imageReference')]"
           },
