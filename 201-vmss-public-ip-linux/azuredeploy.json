@@ -16,6 +16,13 @@
       },
       "maxLength": 9
     },
+    "diskSize": {
+      "type": "int",
+      "metadata": {
+        "description": "OS disk size."
+      },
+      "maxValue": 1023
+    },
     "instanceCount": {
       "type": "int",
       "metadata": {
