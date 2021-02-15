@@ -16,6 +16,9 @@
     },
     "adminPasswordOrKey": {
       "value": "GEN-SSH-PUB-KEY"
+    },
+    "diskSize": {
+      "value": 256
     }
   }
 }
